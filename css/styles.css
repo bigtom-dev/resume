@@ -10992,3 +10992,14 @@ section.resume-section .resume-section-content {
 .subheading-custom {
   font-size: 1.25rem !important;
 }
+
+.resume-section-custom .fa-ul li {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.resume-section-custom .fa-ul li li {
+  font-size: 0.95rem;
+  margin-left: 1rem;
+}
