@@ -42,7 +42,7 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-primary-rgb: 189, 93, 56;
+  --bs-primary-rgb: 102, 212, 247;
   --bs-secondary-rgb: 108, 117, 125;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
@@ -73,10 +73,10 @@
   --bs-border-radius-xl: 1rem;
   --bs-border-radius-2xl: 2rem;
   --bs-border-radius-pill: 50rem;
-  --bs-link-color: #bd5d38;
-  --bs-link-hover-color: #974a2d;
-  --bs-code-color: #d63384;
-  --bs-highlight-bg: #fff3cd;
+  --bs-link-color: #5A6EBD;
+  --bs-link-hover-color: #3c4a9a;
+  --bs-code-color: #6f42c1;
+  --bs-highlight-bg: #eef2ff;
 }
 
 *,
@@ -6658,7 +6658,7 @@ textarea.form-control-lg {
 
 .text-bg-primary {
   color: #000 !important;
-  background-color: RGBA(189, 93, 56, var(--bs-bg-opacity, 1)) !important;
+  background-color: RGBA(90, 110, 189, var(--bs-bg-opacity, 1)) !important;
 }
 
 .text-bg-secondary {
@@ -10944,6 +10944,13 @@ p.lead {
   font-size: 3rem;
 }
 
+.resume-section {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  letter-spacing: -0.5px;
+}
+
 section.resume-section {
   display: flex;
   align-items: center;
@@ -10969,4 +10976,19 @@ section.resume-section .resume-section-content {
     padding-top: 5rem;
     padding-bottom: 5rem;
   }
+}
+
+.resume-section-custom ul li {
+  font-size: 1rem;  
+  font-weight: 400;    
+  line-height: 1.5;
+}
+
+.resume-section-custom ul li ul li {
+  font-size: 0.95rem;
+  margin-left: 1rem;
+}
+
+.subheading-custom {
+  font-size: 1.25rem !important;
 }
